@@ -16,6 +16,7 @@ chmod +x eduroam.sh
 Vilnius Tech (VGTU) still uses TLS 1.1 for their wifi and I have no idea why. Modern Linux distributions reject anything below TLS 1.2, you won't connect to any of them without a hassle. The solution is to turn off the policy for those specific instances
 
 ### how to reproduce
+Thanks to Gleb K. for finding this solution
 ```bash
 # lower the security level for this connection profile to accept >= TLS 1.0
 nmcli con mod [wifiName] 802-1x.openssl-ciphers "DEFAULT@SECLEVEL=0"
