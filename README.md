@@ -11,6 +11,17 @@ chmod +x eduroam.sh
 ```
 
 
+<details>  
+  <summary>click to see the poster image</summary>    
+  <div class="image-container">    
+  <img width="480" height="640" alt="Untitled" src="https://github.com/user-attachments/assets/332c6eae-a9c5-48c9-8851-d50001a66f5f" />
+  </div>    
+</details>
+
+[QArt Coder](https://research.swtch.com/qr/draw/) was used to generate the "qr-kot" for the poster
+
+
+
 ### why it doesn't work by default
 
 Vilnius Tech (VGTU) still uses TLS 1.1 for their wifi and I have no idea why. Modern Linux distributions reject anything below TLS 1.2, you won't connect to any of them without a hassle. The solution is to turn off the policy for those specific instances
